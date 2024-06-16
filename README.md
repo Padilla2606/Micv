@@ -1,2 +1,4 @@
 ---Dentro del repositorio hay imagenes que demuestran el projecto en produccion
 ---esta web tiene un backend que se encarga de enviarme a mi correo el formulario con nodemail.js
+---frontend creado con react y backend con expressjs de nodejs
+---se puede integrar base de datos desde express y crear apis api rest o hacer mas personalizaciones
