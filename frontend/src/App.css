@@ -1,0 +1,425 @@
+body{
+  word-wrap: break-word;
+  position: relative;
+  background-color: #1f1f24;
+  font-family: monospace;
+  margin: 0%;
+  min-height: 100vh;
+  padding-bottom: 10rem;
+  
+}
+
+header{
+  display: flex;
+  margin: 0;
+  background-color: #2e2e35;
+  padding-left: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 50px 0 rgb(17, 17, 17);
+  
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  list-style-type: none;
+  height: 100%;
+  padding: 16px;
+  
+}
+
+ul li{
+  display: flex;
+  align-items: center;
+  padding-left: 0%;
+  padding: 15px;
+}
+
+ul li a{
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff8f;
+}
+ul li a:hover{
+  color: #ffffff;
+  background-color: #1f1f24;
+  padding: 0px;
+  border-radius: 23px;
+  
+}
+
+
+
+
+
+
+
+
+
+.iconpadilla{
+  display: flex;
+  align-items: end;
+  color: whitesmoke;
+  font-size: 23px;
+  
+}
+
+.iconpadilla span{
+  font-size: 18px;
+}
+
+
+
+.container{
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 11rem;
+  padding: 20px;
+  
+}
+
+
+
+
+footer{
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #2e2e35;
+  height: auto;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  box-shadow: 0px 0px 50px 0px rgb(14, 13, 13);
+  margin-bottom: 0%;
+}
+
+
+table{
+  font-size: 16px;
+  color: #ffffff8f;
+  width: 100%;
+  margin: 0px;
+}
+
+th{
+  padding-bottom: 1rem;
+}
+
+
+
+td{
+  padding: 0.6rem;
+  text-align: center;
+}
+
+
+
+.Secciones{
+  display: flex;
+  color: whitesmoke;
+  margin: 2rem;
+  background-color: #2e2e35;
+  box-shadow: 0 0 35px 0 rgb(14, 17, 17);
+  word-wrap: break-word;
+  padding: 1rem;
+}
+
+.Secciones p{
+  font-size: 14.2px;
+}
+.Secciones img{
+  display: block;
+  max-width: 300px;
+  max-height: 300px;
+  padding-right: 1rem;
+}
+
+
+.CajaCartas{
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 2rem 2rem;
+  height: 15rem;
+}
+
+#carta1{
+  background-image: url(./Imagenes/img.jpg);
+  
+}
+#carta2{
+  background-image: url(./Imagenes/imgs.jpg);
+}
+#carta3{
+  background-image: url(./Imagenes//imgss.webp);
+}
+
+.Cartas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc( 100% /3);
+  min-width: 20rem;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem;
+  
+  
+}
+
+.Cartas section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-family: cursive;
+  color: #ffffff;
+  text-align: center;
+  opacity: 0;
+  transition: 0.5s;
+  backdrop-filter: blur(1rem);
+}
+
+
+
+.Cartas section:hover{
+  opacity: 1;
+  border-radius: 1rem;
+  box-shadow: 0 0 4rem 0 inset rgb(255, 255, 255);
+  font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Formulario{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem;
+  margin: 2rem auto;
+  background: linear-gradient(#1f1f24, rgb(20, 22, 20));
+  border-radius: 2rem;
+  box-shadow: 0 0 3rem 0 #1f1f24;
+}
+
+
+
+
+.Formulariocampos{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px;
+  margin-right: auto;
+  margin: 0;
+
+}
+
+.Formulariocampos p{
+  margin: 0%;
+  margin-right: 6px;
+}
+
+.seccionformulariocontacto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputformulariocampos{
+  margin: auto auto;
+  padding: 0.5rem;
+  background-color: #2e2e35;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  color: whitesmoke;
+}
+.inputformulariocampos:hover{
+  box-shadow: 0 0 0.8rem 0 whitesmoke;
+  cursor:pointer;
+  background-color: #474752;
+  color: white;
+
+}
+
+.Formulariocampostextarea{
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+.Formulariocampostextareasms{
+  height: 5rem;
+}
+
+
+
+
+
+.Divcartainfoequipo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  margin: auto 2rem;
+  margin-top: 2rem;
+  background-color: #2e2e35;
+  box-shadow: 0 0 50px 0 rgb(14, 13, 13);
+  color: #ffffff8f;
+
+}
+
+.Cartainfoequipo{
+  display: flex;
+  justify-content: center;
+  width: 20rem;
+  min-height: 18rem;
+  height: auto;
+  padding: 1rem;
+  background: linear-gradient(#1f1f24, rgb(20, 22, 20));
+  border-radius: 2rem;
+  margin: 1rem;
+  box-shadow: 0 0 3rem 0 #1f1f24;
+  text-align: center;
+}
+
+@media screen and ( max-width: 1000px) {
+  .Cartainfoequipo{
+    margin: 1rem 0rem;
+  }
+  .Divcartainfoequipo{
+    margin: 0;
+  }
+}
+
+
+
+.botonmenu{
+  display: none;
+  background: none;
+  border: none;
+}
+
+
+
+
+@media screen and ( max-width: 800px ) {
+  header{
+    min-height: 4.5rem;
+  }
+  
+  ul{
+    transition: ease-in-out 2s;
+    display: block;
+    margin-top: 3rem;
+    height: 100%;
+    
+  }
+  .botonactivamenu{
+    display: block;
+  }
+  .botoncierramenu{
+    display: none;
+  }
+  
+  .botonmenu{
+    display: block;
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+  }
+
+  /* ooooojoooo */
+  .botonmenuatras{
+    display: none;
+  }
+  
+  
+  
+  
+  .iconpadilla{
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Secciones{
+    margin-left: 0;
+    margin-right: 0;
+    flex-wrap: wrap;
+  }
+  .CajaCartas{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer{
+    display: none;
+  }
+  .Formulario{
+    margin: 0;
+    padding: 2rem;
+  }
+  
+}
+
+
+
+
+
+.botonapiwhatsapp{
+  position: fixed;
+  bottom: 4rem;
+  right: 4rem;
+}
+
+.botonapiwhatsapp:hover{
+  filter: drop-shadow(7px 7px 28px green);
+  animation: flotawhatsapp 2s infinite ease-in-out;
+}
+.botonapiwhatsapp:active{
+  transform: scale(1.5);
+}
+
+@media screen and ( max-width: 800px ){
+  .botonapiwhatsapp{
+    bottom: 0.7rem;
+    right: 0.7rem;
+  }
+}
+@keyframes flotawhatsapp {
+  0% {transform: rotate(-10deg);}
+  12% {transform: rotate(-10deg);}
+  25% {transform: rotate(10deg);}
+  37% {transform: rotate(-10deg);}
+  50% {transform: rotate(10deg);}
+  62% {transform: rotate(-10deg);}
+  75% {transform: rotate(10deg);}
+  87% {transform: rotate(-10deg);}
+  90% {transform: rotate(10deg);}
+  100% {transform: rotate(0);}
+}
+
+
+
